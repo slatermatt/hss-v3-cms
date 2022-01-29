@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_builder_contact_promos",
+  "info": {
+    "displayName": "ContactPromo",
+    "icon": "phone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

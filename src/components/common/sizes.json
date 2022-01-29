@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_sizes",
+  "info": {
+    "displayName": "Sizes",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    }
+  }
+}

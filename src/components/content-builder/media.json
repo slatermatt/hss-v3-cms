@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_builder_media",
+  "info": {
+    "displayName": "Media",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

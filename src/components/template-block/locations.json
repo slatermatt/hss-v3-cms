@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_template_block_locations",
+  "info": {
+    "displayName": "Locations",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

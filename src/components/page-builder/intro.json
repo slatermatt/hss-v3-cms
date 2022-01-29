@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_builder_intros",
+  "info": {
+    "displayName": "Intro",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

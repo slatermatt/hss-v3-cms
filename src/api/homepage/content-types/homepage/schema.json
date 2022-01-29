@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "page-builder.intro",
+        "page-builder.split",
+        "page-builder.features"
+      ]
+    },
+    "Carousel": {
+      "displayName": "Carousel",
+      "type": "component",
+      "repeatable": false,
+      "component": "template-block.carousel"
+    },
+    "Cards": {
+      "displayName": "Cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "template-block.cards",
+      "max": 2,
+      "min": 1
+    },
+    "ContactPromo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template-block.contact-promo"
+    }
+  }
+}

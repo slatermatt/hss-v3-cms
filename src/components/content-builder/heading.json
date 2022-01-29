@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_builder_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

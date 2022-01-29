@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_builder_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  }
+}

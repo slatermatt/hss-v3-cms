@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "size_estimators",
+  "info": {
+    "singularName": "size-estimator",
+    "pluralName": "size-estimators",
+    "displayName": "Size Estimator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-builder.intro"
+    },
+    "Sizes": {
+      "type": "dynamiczone",
+      "components": [
+        "template-block.size"
+      ]
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "page-builder.features",
+        "page-builder.intro",
+        "page-builder.split"
+      ]
+    },
+    "ContactPromo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template-block.contact-promo"
+    }
+  }
+}

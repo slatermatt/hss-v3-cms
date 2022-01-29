@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_builder_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "laptop-code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.list"
+    }
+  }
+}

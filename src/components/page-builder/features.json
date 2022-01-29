@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_builder_features",
+  "info": {
+    "displayName": "Features",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Features": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.feature"
+    }
+  }
+}
