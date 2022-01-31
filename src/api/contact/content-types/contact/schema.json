@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-builder.intro",
+      "required": true
+    },
+    "Form": {
+      "displayName": "Form",
+      "type": "component",
+      "repeatable": false,
+      "component": "template-block.form"
+    }
+  }
+}
