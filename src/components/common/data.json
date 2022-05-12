@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_common_sizes",
+  "collectionName": "components_common_data",
   "info": {
-    "displayName": "Sizes",
+    "displayName": "Data",
     "icon": "list"
   },
   "options": {},
